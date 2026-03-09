@@ -208,8 +208,8 @@ include_graphics("./img/readlength_ngs.svg")
 
 ## Endogenous vs exogenous DNA {.flex-cols}
 
-```{r, out.width="75%", fig.align='center', fig.width=4, fig.height=4}
-par(bg = "transparent", mar=c(2, 4, 1, 2))
+```{r, out.width="75%", fig.width=4, fig.height=4}
+par(bg = "transparent", mar=c(2, 6, 1, 2))
 
 # Define the data
 labels <- c("DNA you want", "Other Stuff")
@@ -220,11 +220,11 @@ barplot(c(10, 90), names.arg = labels, col = c("red", "darkgrey"),
 
 ```
 
-```{r, out.height = 500, fig.align='center'}
+```{r, out.width = 300, fig.align='right'}
 include_graphics("./img/contamination.png")
 ```
 
-## "Brute force" sequencing
+## "Brute force" sequencing {.white-slide}
 
 ```{r, out.width = 800, fig.align='center'}
 include_graphics("./img/bruteforce.svg")
